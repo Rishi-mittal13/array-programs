@@ -22,6 +22,9 @@ int main()
 }
 
 
+
+
+
 // To print sum of all rows in 2D array 
 #include<stdio.h>
 int main()
@@ -103,6 +106,8 @@ return 0;
 
 
 
+
+
 // To print the sum of anti-daigonal in (3/3) matrix
 
 #include<stdio.h>
@@ -131,6 +136,9 @@ printf("%d",sum);
 return 0;
 }
 
+
+
+
 // To print the transpose in (3/3) matrix
 
 #include<stdio.h>
@@ -154,6 +162,10 @@ int main()
         }
           return 0;
 }
+
+
+
+
 
 
 // To print upper-half (3/3) matrix
@@ -180,6 +192,12 @@ int main()
         }
           return 0;
 }
+
+
+
+
+
+
 
 
 
@@ -214,4 +232,52 @@ int main()
         printf("\n");
         }
           return 0;
+}
+
+
+
+
+
+
+
+
+
+// Sum of two mattrix (3/3)
+#include<stdio.h>
+int main()
+{
+     int x[3][3],y[3][3],z[3][3],i,j,sum=0;
+     printf("enter the element of first mattrix");
+     for(i=0;i<3;i++)
+     {
+          for(j=0;j<3;j++)
+          {
+               scanf("%d",&x[i][j]);
+          }
+     }
+     printf("enter the element of second mattrix");
+     for(i=0;i<3;i++)
+     {
+          for(j=0;j<3;j++)
+          {
+               scanf("%d",&y[i][j]);
+          }
+     }
+     printf("sum of two mattrix are\n");
+     for(i=0;i<3;i++)
+     {
+          for(j=0;j<3;j++)
+          {
+               z[i][j]=(x[i][j]+y[i][j]);
+               }
+               }
+               for(i=0;i<3;i++)
+               {
+               for(j=0;j<3;j++)
+               {
+               printf("%d\t",z[i][j]);
+          }
+          printf("\n");
+     }
+return 0;
 }
