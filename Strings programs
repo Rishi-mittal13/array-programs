@@ -1,0 +1,74 @@
+//program for input a string and print . 
+
+#include<stdio.h>
+
+int main()
+{
+
+char x[200];
+
+scanf("%[^\n]s",x);
+
+printf("%s",x);
+
+return 0;
+
+}
+
+
+
+
+// change capital letter to small letter
+
+  #include<stdio.h>
+ int main() 
+ {
+ 	 int i, count=0;
+ char x[100];
+printf("enter in capital letter : ");
+
+gets(x);
+for(i=0; x[i] !='\0'; i++)
+ { if(x[i]!=' ')
+{
+x[i]=x[i]+32;
+}
+ else
+printf(" ");
+}
+ puts(x);
+ return 0;
+}
+
+
+
+
+
+// program for converting small letter to capital letter.
+  #include<stdio.h>
+ int main() 
+ {
+ 	 int i, count=0;
+ char x[100];
+printf("enter in small letter : ");
+
+gets(x);
+for(i=0; x[i] !='\0'; i++)
+ { if(x[i]!=' ')
+{
+x[i]=x[i]-32;
+}
+
+ else
+
+printf("");
+}
+
+ puts(x);
+ return 0;
+}
+
+
+
+
+
