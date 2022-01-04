@@ -1,5 +1,4 @@
-//to finding length of string. 
-//1st method 
+//to finding length of string.  
 #include<stdio.h>
 int main()
 { int length;
@@ -9,3 +8,8 @@ int main()
   printf("length of string :%d",length);
   return 0;
 }
+
+
+
+
+
