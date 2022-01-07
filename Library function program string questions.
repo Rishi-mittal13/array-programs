@@ -1,0 +1,79 @@
+//to finding length of string.  
+#include<stdio.h>
+int main()
+{ int length;
+   char x[200];
+  gets(x);
+  length= strlen(x);
+  printf("length of string :%d",length);
+  return 0;
+}
+
+
+
+
+
+
+//to copy one sring Y to another string X
+ #include<stdio.h>
+ #include<string.h>
+int main()
+{char x[100],y[100]; 
+ printf("input a string : "); 
+ gets (x);
+  strcpy(y,x);
+printf("%s", y);
+return 0;
+}
+
+
+
+//to concatenation two strings.
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+char x[100],y[100];  
+printf("input a 1st string : ");
+gets (x);
+printf("input 2nd string: ");
+gets(y);
+ strcat(x,y);
+ printf("%s", x);
+return 0;
+}
+
+
+
+
+
+
+//to concatenation two strings.
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+char x[100],y[100];  
+printf("input a 1st string : ");
+gets (x);
+printf("input 2nd string: ");
+gets(y);
+ strcat(x,y);
+ printf("%s", x);
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
